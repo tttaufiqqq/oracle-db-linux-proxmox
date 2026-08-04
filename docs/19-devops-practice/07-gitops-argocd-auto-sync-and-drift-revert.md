@@ -26,6 +26,8 @@ instead, alongside the devops practice plan it's a stage of
 - This also depends on Stage 5's k3s cluster existing already, since
   ArgoCD installs *inside* it, not alongside it.
 
+![Illustrated GitOps flow: developer git-pushes to the GitHub repo (source of truth); ArgoCD continuously watches and compares it against the cluster, then applies/syncs. A manual change made by SSHing directly into the k3s cluster is caught as drift and ArgoCD reverts it back to match Git. Caption: the repo stays the single source of truth, every change is tracked.](images/stage7-gitops-flow-diagram.png)
+
 ## Flow
 
 ```
