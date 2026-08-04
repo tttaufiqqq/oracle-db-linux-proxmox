@@ -728,6 +728,7 @@ original scope:**
 | CI image build/bump job | `Animal-Shelter-Workshop/.github/workflows/deploy.yml`, `build-and-push-k3s-images` |
 | The plan this continuation executed | `proxmox-homelab-taufiq/plans/06-k3s-multi-node-gitops-automation-plan.md` |
 | This write-up | `proxmox-homelab-taufiq/docs/19-devops-practice/04-k3s-single-node-deployment-and-vault-injector.md` |
+| Continued: 3rd node, remaining secrets, soak test | [`13-k3s-production-cutover-and-soak-test.md`](https://github.com/tttaufiqqq/proxmox-homelab-taufiq/blob/main/docs/19-devops-practice/13-k3s-production-cutover-and-soak-test.md) |
 
 ### Screenshots
 
